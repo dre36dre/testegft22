@@ -61,7 +61,8 @@ public class NotaMusical {
 		int c= inicial;
 		
 		for(int i=0;i<fim; i++ ) {
-			System.out.print(nota[i]+" ");
+			System.out.print(nota[c]+" ");
+			c++;
 		}
 		return 0;
 		
