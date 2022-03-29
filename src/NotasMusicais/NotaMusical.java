@@ -51,7 +51,7 @@ public class NotaMusical {
 	}
 	
 	
-	public int sequencia() {
+	public void sequencia() {
 		
 		System.out.println("Nota inicial");
 		this.inicial=entrada.nextInt();
@@ -64,7 +64,6 @@ public class NotaMusical {
 			System.out.print(nota[c]+" ");
 			c++;
 		}
-		return 0;
 		
 		
 	}}
